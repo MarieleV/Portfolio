@@ -1,0 +1,45 @@
+.navbar {
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  z-index: 10;
+}
+
+/* TOPO */
+.navbar-top {
+  background-color: transparent;
+}
+
+/* APÓS SCROLL */
+.navbar-scrolled {
+  background-color: #ffffff;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Ajustes de links */
+.navbar-top .nav-link,
+.navbar-top .navbar-brand {
+  color: white !important;
+}
+
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-brand {
+  color: #0f172a !important;
+}
+
+.nav-link:hover {
+  color: #2563eb !important;
+}
+
+.cursor {
+  display: inline-block;
+  margin-left: 2px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
