@@ -87,7 +87,7 @@ export default function Header() {
           GitHub
           </a>
           <a
-          href="https://www.linkedin.com/in/seuusuario"
+          href="www.linkedin.com/in/mariele-vieira-8698091b7"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-outline-light"
